@@ -1,0 +1,13 @@
+{
+  "name": "net-server-master-child-demo",
+  "version": "1.0.0",
+  "description": "master/worker network processing things",
+  "main": "index.js",
+  "repository": "git@github.com:SnorlaxYum/net-server-master-child-demo.git",
+  "author": "Sim <sim@snorl.ax>",
+  "license": "MIT",
+  "devDependencies": {
+    "@tsconfig/node12": "^1.0.9",
+    "typescript": "^4.3.5"
+  }
+}
