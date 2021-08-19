@@ -2,7 +2,11 @@
   "name": "net-server-master-child-demo",
   "version": "1.0.0",
   "description": "master/worker network processing things",
-  "main": "index.js",
+  "scripts": {
+      "server": "node build/index.js",
+      "client": "node build/client.js",
+      "rmsock": "rm hey.sock"
+  },
   "repository": "git@github.com:SnorlaxYum/net-server-master-child-demo.git",
   "author": "Sim <sim@snorl.ax>",
   "license": "MIT",
